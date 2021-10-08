@@ -1,5 +1,5 @@
 # QMOCK_PROJECT
-# Q-Homes
+# Q-Home
 
 > Realestate website built with the MERN stack & Redux.
 
@@ -7,7 +7,7 @@
 
 Add a ./Utils/config file and add the following
 
-
+```
 const config = {
 
     secret: "",
@@ -19,20 +19,20 @@ const config = {
     AWS_BUCKET_NAME: "",
 };
 module.exports = config;
-
+```
 
 ### Install Dependencies (frontend & backend)
 
-
+```
 cd frontend
 npm install
 cd backend
 npm install
+```
 
+### Run
 
-###  Run
-
-
+```
 # Run frontend
 cd frontend
 npm start
@@ -40,3 +40,4 @@ npm start
 # Run backend only
 cd backend
 npm start
+```
