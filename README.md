@@ -5,7 +5,7 @@
 
 ### Variables
 
-Add a ./Utils/config file and add the following
+In backed add a ./Utils/config file and add the following
 
 ```
 const config = {
